@@ -108,10 +108,6 @@ h2 {
     justify-content: space-between;
 }
 
-.twoimages {}
-
-.Movingwithriaad {}
-
 img[alt="couplemoving"] {
     height: 550px;
     width: 630px;
@@ -144,8 +140,6 @@ img[alt="collectionofboxes"] {
     width: 600px;
     height: 500px;
     border: solid rgb(103, 123, 189) 15px;
-    /* color:  50px; */
-    /* top: 30px; */
     position: absolute;
     top: 10%;
     left: -10%;
@@ -153,7 +147,6 @@ img[alt="collectionofboxes"] {
 }
 
 .boxesandriaad2007definition {
-    /* margin-left: 300px; */
     width: 50%;
     margin-top: 180px;
     margin-left: 100px;
@@ -186,7 +179,14 @@ img[alt="collectionofboxes"] {
     margin-top: 90px;
 }
 
-.logos {}
+.logos {
+        display: flex;
+        width: 78%;
+        justify-content: space-between;
+        margin: 10% auto;
+        height: 80%;
+    }
+
 
 .serviceandwhattodo {
     margin-left: 700px;
