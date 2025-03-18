@@ -3,11 +3,6 @@
     src: url(Poppins-Regular.ttf);
 }
 
-@font-face {
-    font-family: ;
-    src: url(SilverForteDEMO.ttf);
-}
-
 body {
     width: 100%;
 }
@@ -56,8 +51,7 @@ a{
     padding-bottom: 100px;
     background-size: cover;
     outline-color: white;
-
-
+    
 }
 
 #smoothmovingtext {
@@ -69,7 +63,7 @@ a{
 }
 
 h1 {
-    margin-left: 700px;
+    margin-left: 580px;
     font-size: 100px;
     color: white;
 
@@ -231,6 +225,12 @@ h4 {
     font-family: 'poppins';
 
 }
+.chooseleadingriaad i{
+
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 30px;
+}
 
 .clickandwatchvideo {
     margin-left: 190px;
@@ -244,10 +244,33 @@ h4 {
     font-size: 15px;
 }
 
-.watchvideo img {
-    height: 100px;
-    width: 170px;
+.watchvideo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+    img {
+        width: 100%;
+        height: 80%;
+        display: block;
+        
+    }
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+        border-radius: 50%;
+        background-color: #F9A825;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
 }
+ 
 
 #startverifying {
     color: orange;
@@ -340,7 +363,8 @@ h5 {
     position: relative;
     border: none;
     background-color: orange;
-    padding: 3% 10% 0.01% 18%
+    padding: 3% 10% 0.01% 18%;
+    color: white;
 }
 
 form input {
